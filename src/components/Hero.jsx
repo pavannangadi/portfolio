@@ -75,7 +75,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-lg md:text-xl text-[var(--text-secondary)] mb-12 max-w-2xl mx-auto text-balance font-light"
         >
-          Developing intelligent and scalable web applications using modern technology, with a strong interest in AI and cloud computing.
+          Developing intelligent and scalable web applications using modern technologies, with a strong interest in AI and cloud computing.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex gap-6 justify-center flex-wrap">
