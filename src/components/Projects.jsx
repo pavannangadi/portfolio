@@ -7,7 +7,7 @@ const PROJECTS = [
     title: "SubSplit",
     description:
       "A subscription cost-splitting platform leveraging blockchain technology for secure, transparent transactions. Built with Next.js and integrated with Solana smart contracts.",
-    tech: ["Next.js", "MongoDB", "Solana", "Smart Contracts", "React"],
+    tech: [ "Node.js", "Express.js", "MongoDB", "Razorpay", "React"],
     link: "#",
     github: "https://github.com/pavannangadi/SubSplit",
   },
@@ -32,8 +32,8 @@ const PROJECTS = [
     description:
       "Modern, responsive portfolio built with React, Vite, and Tailwind CSS. Features smooth animations with Framer Motion.",
     tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
-    link: "#",
-    github: "#",
+    link: "https://pavanangadi.vercel.app/", // i have turned this off
+    github: "https://github.com/pavannangadi/portfolio",
   },
 ]
 
