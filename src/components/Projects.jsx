@@ -98,7 +98,7 @@ export default function Projects() {
         >
           <h2 className="text-5xl md:text-6xl font-light mb-4 tracking-tight">Featured Projects</h2>
           <p className="text-[var(--text-secondary)] text-base font-light max-w-2xl">
-            Showcasing my best work in web development and blockchain technology.
+            Showcasing my best work in web development.
           </p>
         </motion.div>
 
