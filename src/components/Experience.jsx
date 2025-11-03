@@ -8,7 +8,7 @@ const EXPERIENCES = [
     company: "Infosys Springboard",
     period: "2024 - 2025",
     description:
-      "Developing AI chatbot solutions using FLAN-T5, Rasa, and Streamlit. Implementing natural language processing and machine learning models for enterprise applications.",
+      "Chatbot for Personalized Learning is an intelligent AI-based educational assistant developed using Rasa, Streamlit, and Google FLAN-T5. It enhances the learning experience by providing contextual answers, personalized feedback, and adaptive interactions tailored to each student’s learning style.",
     skills: ["Python", "FLAN-T5", "Rasa", "Streamlit", "NLP"],
   },
   // {
