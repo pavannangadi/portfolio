@@ -6,7 +6,7 @@ const PROJECTS = [
   {
     title: "SubSplit",
     description:
-      "A subscription cost-splitting platform leveraging blockchain technology for secure, transparent transactions. Built with Next.js and integrated with Solana smart contracts.",
+      "SubSplit is a full-stack web application that enables users to split, manage, and track shared subscription expenses with friends or groups, featuring secure authentication, automated cost calculations, real-time payment tracking, and a clean, responsive interface for seamless user experience.",
     tech: [ "Node.js", "Express.js", "MongoDB", "Razorpay", "React"],
     link: "#",
     github: "https://github.com/pavannangadi/SubSplit",
@@ -14,7 +14,7 @@ const PROJECTS = [
   {
     title: "AI Learning Chatbot",
     description:
-      "Personalized learning assistant powered by FLAN-T5 and Rasa. Provides adaptive learning paths and real-time assistance for students.",
+      "Chatbot for Personalized Learning is an AI-powered educational assistant built using Rasa, Streamlit, and Google FLAN-T5 that provides personalized learning experiences by answering student queries, offering instant feedback, and adapting responses based on individual learning patterns to enhance engagement and understanding.",
     tech: ["Python", "FLAN-T5", "Rasa", "NLP", "Streamlit"],
     link: "#",
     github: "https://github.com/pavannangadi/Chatbot_for_Personalized_Learning",
