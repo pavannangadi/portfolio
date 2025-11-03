@@ -68,7 +68,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.h1 variants={itemVariants} className="text-6xl md:text-8xl font-light mb-8 text-balance tracking-tight">
-          Pampanna Angadi
+          Pavan Angadi
         </motion.h1>
 
         <motion.p
