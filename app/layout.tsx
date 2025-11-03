@@ -21,6 +21,12 @@ export default function RootLayout({
     <html lang="en">
       <body suppressHydrationWarning className={`font-sans antialiased`}>
         {children}
+        <footer
+          className="mt-16 border-t text-xs tracking-widest uppercase py-6 text-center"
+          style={{ borderColor: "var(--accent-secondary)", color: "var(--text-secondary)" }}
+        >
+          © 2025 Pampanna Angadi
+        </footer>
         <Analytics />
       </body>
     </html>
