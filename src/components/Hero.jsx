@@ -64,7 +64,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-sm tracking-widest uppercase text-[var(--text-secondary)] mb-6"
         >
-          Full Stack Developer
+          Full Stack Developer | AI & Cloud Enthusiast
         </motion.p>
 
         <motion.h1 variants={itemVariants} className="text-6xl md:text-8xl font-light mb-8 text-balance tracking-tight">
@@ -75,8 +75,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-lg md:text-xl text-[var(--text-secondary)] mb-12 max-w-2xl mx-auto text-balance font-light"
         >
-          Building intelligent, interactive, and scalable web experiences. Passionate about AI and
-          cutting-edge technologies.
+          Developing intelligent and scalable web applications using modern technologies, with a strong interest in AI and cloud computing.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex gap-6 justify-center flex-wrap">
