@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Inter", "Inter Fallback", system-ui, sans-serif;
+}
+
+:root {
+  /* Dark mode (default) */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2a2a2a;
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --accent-primary: #ffffff;
+  --accent-secondary: #666666;
+  --accent-tertiary: #555555;
+  /* LeetCode-style green contribution colors for dark mode */
+  --contribution-empty: #1a1a1a;
+  --contribution-light: #0e4429;
+  --contribution-medium: #006d32;
+  --contribution-high: #26a641;
+  --contribution-max: #39d353;
+}
+
+/* Light mode selector with proper specificity */
+html.light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666666;
+  --accent-primary: #000000;
+  --accent-secondary: #cccccc;
+  --accent-tertiary: #999999;
+  /* LeetCode-style green contribution colors for light mode */
+  --contribution-empty: #eaedf0;
+  --contribution-light: #c6e48b;
+  --contribution-medium: #7ee787;
+  --contribution-high: #239a3b;
+  --contribution-max: #0e4429;
+}
+
+* {
+  @apply scroll-smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
