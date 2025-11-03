@@ -4,12 +4,17 @@ import { motion } from "framer-motion"
 
 const SKILLS = [
   { category: "Languages", items: ["Java", "Python", "JavaScript", "C"] },
-  { category: "Frontend", items: ["React.js","HTML", "CSS"] },
-  { category: "Backend", items: ["Node.js", "Express", "MongoDB", "MySQL"] },
-  { category: "AI", items: ["AI/ML", "FLAN-T5", "Rasa"] },
-  { category: "Tools", items: ["Git", "Docker"] },
-  { category: "Other", items: ["DSA", "System Design","StreamLit"] },
-]
+  { category: "Frontend", items: ["React.js", "Next.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap"] },
+  { category: "Backend", items: ["Node.js", "Express.js", "REST APIs", "Authentication (JWT, OAuth)"] },
+  { category: "Databases", items: ["MongoDB", "MySQL"] },
+  { category: "System & DevOps", items: ["Linux", "Docker", "Git", "AWS (EC2, S3, Lambda)", "CI/CD", "Streamlit"] },
+  { category: "AI/ML", items: ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Rasa", "Google FLAN-T5"] },
+  { category: "Core Concepts", items: ["Data Structures and Algorithms", "Object-Oriented Programming", "Operating Systems", "Computer Networks", "Database Management Systems"] },
+  { category: "Tools & Frameworks", items: ["Cursor", "Postman", "Figma", "npm", "Webpack"] },
+  { category: "Soft Skills", items: ["Analytical Thinking", "Problem Solving", "Debugging", "Collaboration", "Adaptability", "Leadership"] },
+];
+
+
 
 const SkillCard = ({ skill, index }) => (
   <motion.div
